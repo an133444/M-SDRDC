@@ -3,10 +3,10 @@ estudent = input("ingresa el nombre de el estudiante: ")
 cursos = (
     "calculo multivariado",
     "lengua extranjera",
-    "fisca III",
+    "fisica III",
     "ingles II",
     "estructuras de informacion",
-    "arqutectura de computadoras"
+    "arquitectura de computadoras"
 
 )
 
