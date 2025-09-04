@@ -32,3 +32,11 @@ for curso, nota in zip(cursos, notas):
         print(f" - {curso}: Sin calificación")
     else:
         print(f" - {curso}: {nota}")
+
+notas_validas = [n for n in notas if n is not None]
+if notas_validas:
+    promedio = sum(notas_validas) / len(notas_validas)
+else:
+    promedio = 0.0
+
+print(f"\n Promedio final: {promedio:.2f}")
