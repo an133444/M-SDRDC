@@ -25,3 +25,10 @@ for i, curso in enumerate(cursos):
             notas[i] = nota
         else:
             print(" Error: La nota debe estar entre 0.0 y 5.0")
+
+print("\n Reporte de Calificaciones")
+for curso, nota in zip(cursos, notas):
+    if nota is None:
+        print(f" - {curso}: Sin calificación")
+    else:
+        print(f" - {curso}: {nota}")
